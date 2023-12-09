@@ -1,0 +1,38 @@
+{
+    "name": "alnaggar/spaify",
+    "description": "Streamline Laravel SPA development with Spaify, your efficient toolkit for setup simplicity.",
+    "keywords": [
+        "laravel",
+        "vue",
+        "tailwindcss",
+        "inertia",
+        "ziggy",
+        "fontawesome"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "أحمد محمد رشاد",
+            "email": "ahmed.rashad.alnaggar@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^10.0",
+        "inertiajs/inertia-laravel": "^0.6",
+        "tightenco/ziggy": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alnaggar\\Spaify\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alnaggar\\Spaify\\SpaifyServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
