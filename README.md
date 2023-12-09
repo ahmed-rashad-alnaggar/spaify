@@ -9,7 +9,7 @@ Spaify is compatible with Laravel 10 and above.
 Install the package using Composer:
 
 ```bash
-composer require alnaggar/spaify
+composer require alnaggar/spaify --dev
 ```
 
 ## Usage
